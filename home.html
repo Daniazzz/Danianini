@@ -190,6 +190,22 @@ body {
             margin: 10px 0 0;
             font-size: 0.9rem;
         }
+		
+		.spotify-container {
+			position: absolute; 
+			bottom: -150px;    
+			left: 40px;     
+			width: 300px;    
+			height: 380px;   
+			z-index: 0;     
+		}
+
+        iframe {
+            width: 85%;
+            height: 60%;
+            border: none;
+        }
+		
 </style>
 <body>
     <div class="container">
@@ -214,6 +230,11 @@ body {
             <div class="quote">Learn the rules like a pro, so you can break them like an artist.</div>
             <div class="quote1">- Pablo Picasso -</div>
         </section>
+    </div>
+	
+	 <div class="spotify-container">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5eWcGfUCrVFMoYskyfkEPE?utm_source=generator&theme=0" width="10%" height="10px" frameBorder="0" 
+		allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> 
     </div>
     
     <footer class="footer">
